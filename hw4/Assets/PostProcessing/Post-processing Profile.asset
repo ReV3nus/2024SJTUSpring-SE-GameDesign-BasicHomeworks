@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3428353136631250818
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c5d45f9d2fba64a8e3d3b91e60353c, type: 3}
+  m_Name: MotionBlurSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  blurAlpha:
+    overrideState: 1
+    value: 0.1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Post-processing Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 4043255994716924813}
+  - {fileID: 921174901055618337}
+  - {fileID: -3428353136631250818}
+  - {fileID: 4727533707448682823}
+  - {fileID: 6899940490037815062}
+--- !u!114 &921174901055618337
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f1f36084887a141bf30b06577ecedb, type: 3}
+  m_Name: LineStyle
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  lineStrength:
+    overrideState: 1
+    value: 7.74
+  lineColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 1}
+  baseColor:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &4043255994716924813
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf5aebe74556c742abacb4b5bad94de, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  bloomColor:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 1}
+  bloomStrength:
+    overrideState: 1
+    value: 2.51
+  iteratorTimes:
+    overrideState: 1
+    value: 3
+--- !u!114 &4727533707448682823
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c9c4be319afe24b9b21fd99f1d00dc, type: 3}
+  m_Name: DOFSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  blurStrength:
+    overrideState: 1
+    value: 1.98
+  iteratorTimes:
+    overrideState: 1
+    value: 8
+  minFocusDistance:
+    overrideState: 1
+    value: 0.002
+  maxFocusDistance:
+    overrideState: 1
+    value: 0.004
+  lessScale:
+    overrideState: 1
+    value: 70
+  moreScale:
+    overrideState: 1
+    value: 1000
+--- !u!114 &6899940490037815062
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376caaa6f666d674fb14ec2b17741639, type: 3}
+  m_Name: FogSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  fogDensity:
+    overrideState: 1
+    value: 0.15
+  fogColor:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 1}
+  fogHeight:
+    overrideState: 1
+    value: 0.76
+  noiseTex:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 6f62a813e04eaa24fad6aab61a5a73b3, type: 3}
+    defaultState: 1
+  fogXSpeed:
+    overrideState: 1
+    value: 0.069
+  fogYSpeed:
+    overrideState: 1
+    value: 0.116
+  noiseStrength:
+    overrideState: 1
+    value: 1.49
+  noiseScale:
+    overrideState: 1
+    value: 0.32

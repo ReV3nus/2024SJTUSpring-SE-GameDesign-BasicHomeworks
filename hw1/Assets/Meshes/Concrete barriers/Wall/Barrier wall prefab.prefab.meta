@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 69c3abf30cd3a1b42b7e7624fb41652f
+labels:
+- Barrier
+- Concrete
+- Props
+- Rough
+- Wall
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13248
+  packageName: Concrete barriers pack
+  packageVersion: 1.0
+  assetPath: Assets/Meshes/Concrete barriers/Wall/Barrier wall prefab.prefab
+  uploadId: 151
